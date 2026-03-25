@@ -39,7 +39,7 @@
     System.out.print("Escribe el precio bruto de un coponente: ");
     int pBrutoC = scan.nextInt();
     System.out.println("El iva es:");
-    herramienta.iva2(pBrutoC);
+    System.out.print(herramienta.iva2(pBrutoC));
                 } 
             }   
         }  
