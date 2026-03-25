@@ -38,37 +38,9 @@
 
     System.out.print("Escribe el precio bruto de un coponente: ");
     int pBrutoC = scan.nextInt();
-    } else {
-        
+    System.out.println("El iva es:");
+    herramienta.iva2(pBrutoC);
+                } 
+            }   
+        }  
     }
-
-   
-       
-       
-        
-    }  
-    }
-   
-
-
-
-
-
-     /* while (x == 1) {
-
-   System.out.print("¿Cuantas Facturas se emitieron durante el dia? :");
-    int facalDia =scan.nextInt() ;
-
-    for (int i = 0; i <= facalDia; i++){
-
-    System.out.print("Total cobrado: ");
-    int ttCobrado =scan.nextInt();
-    int suma = ttCobrado + suma;
-    System.out.println("Corte de caja Total: "+ suma);
-    }
-    
-        
-    }*/
-    }
-
-

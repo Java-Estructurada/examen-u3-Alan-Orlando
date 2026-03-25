@@ -1,7 +1,8 @@
 public class herramienta {
-
-    public int iva (){
-        
+    public static double iva2 (int pbruto){
+    double iv = pbruto * 0.16;
+    double iva= pbruto + iv;
+    return iva;
     }
 
 
